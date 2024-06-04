@@ -1,0 +1,149 @@
+@import "_nullstyle";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+   font-family: "Montserrat", sans-serif;
+}
+a {
+   color: #505457;
+   transition: 0.3s;
+   &:hover {
+      color: #3b9dd3;
+   }
+}
+.container {
+   max-width: 1400px;
+   margin: 0px auto;
+}
+.header {
+   .butt {
+      cursor: pointer;
+      color: #fff;
+      text-align: center;
+      font-size: 19px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 19px; /* 100% */
+      letter-spacing: -0.38px;
+      border-radius: 10px;
+      background: #3b9dd3;
+      display: flex;
+      align-items: center;
+      gap: 25px;
+      padding: 14px 16px;
+   }
+   .right {
+      display: flex;
+      align-items: center;
+      gap: 45px;
+      a {
+         font-weight: 600;
+      }
+   }
+   a {
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 19px; /* 105.556% */
+   }
+   ul {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+   }
+   .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+   padding: 15px 0;
+}
+.intro {
+   .info {
+      .button {
+         cursor: pointer;
+         display: flex;
+         align-items: center;
+         gap: 27px;
+         border-radius: 10px;
+         background: #fff;
+         padding: 14px;
+         max-width: fit-content;
+
+         color: #3494c8;
+         text-align: center;
+         font-size: 19px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 19px; /* 100% */
+         letter-spacing: -0.38px;
+      }
+      p {
+         margin: 0px 0px 50px 0px;
+         color: #fff;
+         font-size: 22px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 114.5%; /* 25.19px */
+         letter-spacing: -1.5px;
+      }
+      h1 {
+         margin: 0px 0px 20px 0px;
+         color: #fff;
+         font-size: 52px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 104%; /* 54.08px */
+         letter-spacing: -1.5px;
+         span {
+            font-weight: 800;
+         }
+      }
+   }
+   .express {
+      color: #fff;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 19px; /* 126.667% */
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 6px 16px;
+      border-radius: 75px;
+      background: #58bff8;
+
+      position: absolute;
+      top: 32px;
+      left: 28px;
+   }
+   .cars {
+      position: absolute;
+      left: 70px;
+      bottom: 0px;
+   }
+   .right {
+      position: relative;
+      .img {
+         img {
+            object-fit: cover;
+            max-width: 100%;
+            margin-top: -70px;
+         }
+         margin: 0px 0px 50px 0px;
+         max-width: 830px;
+         max-height: 530px;
+         border-radius: 20px;
+         overflow: hidden;
+      }
+   }
+   .wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+   }
+   background: url("../img/introbg.svg") no-repeat;
+   background-size: cover;
+   padding: 65px 0px 15px 0px;
+}
