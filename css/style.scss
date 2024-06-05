@@ -11,6 +11,16 @@ a {
       color: #3b9dd3;
    }
 }
+h2 {
+   color: #505457;
+   font-size: 44px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 104%; /* 45.76px */
+   letter-spacing: -1.5px;
+
+   margin: 0px 0px 30px 0px;
+}
 .container {
    max-width: 1400px;
    margin: 0px auto;
@@ -101,6 +111,7 @@ a {
       }
    }
    .express {
+      cursor: pointer;
       color: #fff;
       font-size: 15px;
       font-style: normal;
@@ -146,4 +157,58 @@ a {
    background: url("../img/introbg.svg") no-repeat;
    background-size: cover;
    padding: 65px 0px 15px 0px;
+}
+.items {
+   .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+   }
+
+   .item {
+      display: flex;
+      flex-direction: column;
+      //gap: 20px;
+      h3 {
+         color: #505457;
+         font-size: 21px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 114.5%; /* 24.045px */
+         letter-spacing: -1px;
+      }
+      img {
+         flex-grow: 1;
+         max-width: 100%;
+         object-fit: contain;
+      }
+      padding: 30px;
+      border-radius: 17px;
+      background: #fff;
+      box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+   }
+
+   .tall {
+      
+      height: 100%;
+      grid-row: span 2;
+   }
+
+   .short {
+      .wrapp{
+         .space{
+            flex-grow: 1;
+         }
+         min-height: 100%;
+         display: flex;
+         flex-direction: column;
+      }
+      img{
+        object-fit: contain;
+         max-height: 130px;
+      }
+      height: 240px;
+   }
+
+   padding: 90px 0px 90px 0px;
 }
