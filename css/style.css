@@ -436,4 +436,89 @@ h2 {
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 35px;
+}
+
+.mission {
+  padding: 0px 0px 90px 0px;
+}
+.mission .icon {
+  margin: 0px 0px 20px 0px;
+}
+.mission ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mission ul li {
+  position: relative;
+  padding: 0px 0px 0px 30px;
+  color: #505457;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 114.5%; /* 21.755px */
+  letter-spacing: -1px;
+}
+.mission ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #439aca;
+}
+.mission h2 {
+  margin: 0px 0px 27px 0px;
+  color: #505457;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 104%; /* 33.28px */
+  letter-spacing: -1.5px;
+}
+.mission .img {
+  max-height: 370px;
+  width: 45%;
+}
+.mission .img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 100%;
+}
+.mission .info {
+  padding: 30px;
+  width: 55%;
+}
+.mission .right {
+  display: flex;
+  width: 48%;
+  border-radius: 17px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+}
+.mission .left {
+  width: 48%;
+  padding: 30px 40px;
+  border-radius: 17px;
+  background: #fff;
+  box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+}
+.mission .left p {
+  color: #505457;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114.5%; /* 21.755px */
+  letter-spacing: -1px;
+}
+.mission .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
 }/*# sourceMappingURL=style.css.map */

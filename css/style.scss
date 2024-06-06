@@ -360,5 +360,88 @@ h2 {
       gap: 35px;
    }
    padding: 0px 0px 90px 0px;
-   background: url('../img/aboutbg.svg') no-repeat center center;
+   background: url("../img/aboutbg.svg") no-repeat center center;
+}
+.mission {
+   .icon {
+      margin: 0px 0px 20px 0px;
+   }
+   ul {
+      li {
+         &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 7px;
+            width: 8px;
+            height: 8px;
+            border-radius: 8px;
+            background: #439aca;
+         }
+         position: relative;
+         padding: 0px 0px 0px 30px;
+         color: #505457;
+         font-family: Montserrat;
+         font-size: 19px;
+         font-style: normal;
+         font-weight: 600;
+         line-height: 114.5%; /* 21.755px */
+         letter-spacing: -1px;
+      }
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+   }
+   h2 {
+      margin: 0px 0px 27px 0px;
+      color: #505457;
+      font-family: Montserrat;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 104%; /* 33.28px */
+      letter-spacing: -1.5px;
+   }
+   .img {
+      img {
+         object-fit: cover;
+         max-height: 100%;
+      }
+      max-height: 370px;
+      width: 45%;
+   }
+   .info {
+      padding: 30px;
+      width: 55%;
+   }
+   .right {
+      display: flex;
+      width: 48%;
+      border-radius: 17px;
+      overflow: hidden;
+      background: #fff;
+      box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+   }
+   .left {
+      p {
+         color: #505457;
+         font-family: Montserrat;
+         font-size: 19px;
+         font-style: normal;
+         font-weight: 500;
+         line-height: 114.5%; /* 21.755px */
+         letter-spacing: -1px;
+      }
+      width: 48%;
+      padding: 30px 40px;
+      border-radius: 17px;
+      background: #fff;
+      box-shadow: 0px 4px 41px 0px rgba(0, 0, 0, 0.05);
+   }
+   .wrapper {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+   }
+   padding: 0px 0px 90px 0px;
 }
