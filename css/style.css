@@ -304,6 +304,7 @@ h2 {
 .aboutus {
   padding: 0px 0px 90px 0px;
   background: url("../img/aboutbg.svg") no-repeat center center;
+  background-size: contain;
 }
 .aboutus .image {
   border-radius: 17px;
