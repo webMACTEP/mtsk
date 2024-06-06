@@ -250,7 +250,6 @@ h2 {
       .left {
          p {
             color: #728d9b;
-            font-family: Montserrat;
             font-size: 19px;
             font-style: normal;
             font-weight: 400;
@@ -259,7 +258,6 @@ h2 {
          }
          .title {
             color: #439aca;
-            font-family: Montserrat;
             font-size: 20px;
             font-style: italic;
             font-weight: 700;
@@ -361,4 +359,6 @@ h2 {
       justify-content: space-between;
       gap: 35px;
    }
+   padding: 0px 0px 90px 0px;
+   background: url('../img/aboutbg.svg') no-repeat center center;
 }
