@@ -440,7 +440,7 @@ h2 {
 }
 
 .mission {
-  padding: 0px 0px 90px 0px;
+  padding: 180px 0px 180px 0px;
 }
 .mission .icon {
   margin: 0px 0px 20px 0px;
@@ -522,4 +522,104 @@ h2 {
   display: flex;
   justify-content: space-between;
   gap: 30px;
+}
+
+.footer {
+  background: url("../img/footer-bg.svg") top center no-repeat;
+  background-size: cover;
+  padding: 90px 0px 0px 0px;
+}
+.footer .bott {
+  border: 1px solid #e6e6e6;
+  background: #f3f3f3;
+  padding: 35px 0;
+}
+.footer .bott .phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 5px;
+}
+.footer .bott .phone a {
+  color: #728d9b;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 141.176% */
+  letter-spacing: -0.17px;
+}
+.footer .bott .adress {
+  display: flex;
+  gap: 20px;
+  color: #728d9b;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 141.176% */
+  letter-spacing: -0.17px;
+}
+.footer .bott .contacts {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  padding: 0px 200px 0px 0px;
+}
+.footer .bott .copy {
+  color: #728d9b;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 141.176% */
+  letter-spacing: -0.17px;
+}
+.footer .bott .wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.footer .top form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  margin: 0px 0px 220px 0px;
+}
+.footer .top form button {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  border-radius: 10px;
+  background: #439aca;
+  padding: 0px 18px;
+  min-height: 47px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px; /* 100% */
+  letter-spacing: -0.38px;
+}
+.footer .top form input {
+  min-width: 500px;
+  border-radius: 8px;
+  background: #fff;
+  padding: 16px 18px;
+}
+.footer .top .wrapper {
+  display: flex;
+  gap: 30px;
+}
+.footer .top .wrapper p {
+  margin: 10px 0px 0px 0px;
+  color: #505457;
+  font-family: Montserrat;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 114.5%; /* 21.755px */
+  letter-spacing: -1px;
 }/*# sourceMappingURL=style.css.map */
